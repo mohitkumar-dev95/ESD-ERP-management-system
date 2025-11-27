@@ -1,0 +1,106 @@
+/* General Container Styling */
+.signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* background: linear-gradient(120deg, #371064, #8f547d); */
+    /* background-color: rgb(85, 126, 165) ; */
+    background: linear-gradient(120deg, #0b1966, #61a0ca, #0b1966);
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  /* Card Styling */
+  .sign-up {
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 60px;
+    max-width: 500px;
+    width: 100%;
+    background-color: #fff;
+    font-size: 1.2rem;
+    animation: slide-in 0.5s ease-out;
+  }
+  
+  /* Header and Subtext Styling */
+  #sign_up_header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #0b2136;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  #sign_up_subtext {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: #888;
+    margin-bottom: 30px;
+    font-size: 1rem;
+  }
+  
+  /* Form Elements Styling */
+  .form-label {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .form-control {
+    font-size: 1.1rem;
+    padding: 12px;
+    margin: 10px 0;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    height: 40px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    border-color: #3c91e6;
+    outline: none;
+    box-shadow: 0 0 8px rgba(60, 145, 230, 0.2);
+  }
+  
+  /* Button Styling */
+  .btn {
+    margin: 20px 0;
+    width: 100%;
+    background-color: #0b2136;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    padding: 12px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #3268c6;
+  }
+  
+  /* Error Text */
+  .error-text {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Animation */
+  @keyframes slide-in {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
