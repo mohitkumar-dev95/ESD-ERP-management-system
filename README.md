@@ -38,7 +38,7 @@ The project is built using **Spring Boot** for the backend and **React** for the
 ### Prerequisites
 - Node.js and npm installed
 - Java Development Kit (JDK) installed.
-- Spring Boot setup with Maven
+- Spring Boot setup with Maven.
 - A configured database.
 
 ### Frontend
