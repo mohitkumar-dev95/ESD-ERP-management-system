@@ -17,7 +17,7 @@ The project is built using **Spring Boot** for the backend and **React** for the
 
 ## Tech Stack
 - **Frontend**: React, Bootstrap
-- **Backend**: Spring Boot, REST APIs
+- **Backend**: Spring Boot, REST APIs.
 - **Database**: MySQL
 - **Authentication**: JWT Tokens
 
