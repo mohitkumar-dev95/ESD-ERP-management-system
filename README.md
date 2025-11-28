@@ -39,7 +39,7 @@ The project is built using **Spring Boot** for the backend and **React** for the
 - Node.js and npm installed
 - Java Development Kit (JDK) installed
 - Spring Boot setup with Maven
-- A configured database
+- A configured database.
 
 ### Frontend
 1. Navigate to the `esd-mini-react` directory.
