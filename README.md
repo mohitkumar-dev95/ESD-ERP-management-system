@@ -54,4 +54,4 @@ The project is built using **Spring Boot** for the backend and **React** for the
 1. Navigate to the `ESD_MINI` directory.
 2. Install dependencies:  
 - Open this with Intellij IDEA
-3. Run the project
+3. Run the project.
